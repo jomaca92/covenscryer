@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,58 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.font-goth {
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.btn {
+  @apply flex items-center whitespace-nowrap px-2 py-1 bg-black/10 rounded hover:bg-black/5 hover:text-black/50
+}
+
+.btn-icon {
+  @apply h-5 w-5
+}
+
+.text-0 {
+  font-size: 0;
+  word-spacing:0;
+  letter-spacing: 0;
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+.minimal-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+/* Track */
+.minimal-scroll::-webkit-scrollbar-track {
+  background: transparent; 
+}
+/* Handle */
+.minimal-scroll::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.479); 
+  border-radius:5px;
+}
+/* Handle on hover */
+.minimal-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.hidden-scroll::-webkit-scrollbar {
+  display:none;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
