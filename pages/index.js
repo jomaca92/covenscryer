@@ -397,6 +397,7 @@ export default function Home() {
     setPauseQuery(true)
     setSkip(0)
     setTokens([])
+    setScrollY(0)
     setCurrFilters(newFilters)
     reexecuteQuery({ requestPolicy: 'network-only' })
     setPauseQuery(false)
