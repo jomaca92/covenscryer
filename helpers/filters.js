@@ -765,8 +765,46 @@ const FilterData = [
         field: "attributeCount",
         label: "Attribute Count",
         suffixes: ["_gte","_lte"],
-        options: [0, 100], // min and max values
+        options: [19, 28], // min and max values
     },
 ]
 
 export default FilterData
+
+export const initialFilter = {
+    'wiles_gte': 0,
+    'wiles_lte': 10,
+    'will_gte': 0,
+    'will_lte': 10,
+    'wit_gte': 0,
+    'wit_lte': 10,
+    'wisdom_gte': 0,
+    'wisdom_lte': 10,
+    'woe_gte': 0,
+    'woe_lte': 10,
+    'wonder_gte': 0,
+    'wonder_lte': 10,
+    'attributeCount_gte': 19,
+    'attributeCount_lte': 28
+}
+
+export const simpleFilter = {
+    'backItem': ['None'],
+    'faceMarkings': ['None'],
+    'facewear': ['None'],
+    'foreheadJewelry': ['None'],
+    'hairTopper': ['None'],
+    'hat': ['None'],
+    'mask': ['None'],
+    'necklace': ['None'],
+    'outerwear': ['None'],
+    'eyeStyle': ['Alert', 'Babylash', 'Circle Lens', 'Clear Graphic', 'Hooded Side', 'Hypnotic', 'Reverse Cateye', 'Shadowed', 'Smudged', 'Smudged Monolid', 'Sunset Almond'],
+    'earrings': ['None', 'Basic Piercings (Silver)', 'Fang Charm (Red)'],
+    'eyebrows': ['Arched (Brown)', 'Bushy (Brown)', 'Bushy (White)', 'Fluffy (Brown)', 'Fluffy (White)', 'Medium Flat (Black)', 'Pencil (White)', 'Round (Navy)', 'Strong (Black)', 'Thin Arched (Grey)', 'Thin Arched (Teal)'],
+    ...initialFilter
+}
+
+// export const spookyFilter = {
+//     'eyeStyle': ['Blank', 'Demon', 'Demon Bloom', 'Inscribed Demon Bloom', 'Snake', 'Sclera', 'The Stalk', 'The Stalk Lined'],
+//     ...initialFilter
+// }
