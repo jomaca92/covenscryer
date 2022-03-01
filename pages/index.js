@@ -431,13 +431,13 @@ export default function Home() {
         <meta property="og:url" content="https://covenscryer.xyz" />
         <meta property="og:title" content="CovenScryer" />
         <meta property="og:description" content="Search for Witches using advanced filtering and search tools" />
-        <meta property="og:image" itemProp="image" content="https://covenscryer.netlify.app/splash.png" />
+        <meta property="og:image" itemProp="image" content="https://covenscryer.netlify.app/splash-2.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://covenscryer.xyz" />
         <meta property="twitter:title" content="CovenScryer" />
         <meta property="twitter:description" content="Search for Witches using advanced filtering and search tools" />
-        <meta property="twitter:image" content="https://covenscryer.netlify.app/splash.png" />
+        <meta property="twitter:image" content="https://covenscryer.netlify.app/splash-2.png" />
 
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"/>
