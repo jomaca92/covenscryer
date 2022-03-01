@@ -424,7 +424,21 @@ export default function Home() {
     <div className="min-h-screen bg-champagne font-goth text-black">
       <Head>
         <title>CovenScryer</title>
+        <meta name="title" content="CovenScryer" />
         <meta name="description" content="Search for Witches using advanced filtering and search tools" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://covenscryer.xyz" />
+        <meta property="og:title" content="CovenScryer" />
+        <meta property="og:description" content="Search for Witches using advanced filtering and search tools" />
+        <meta property="og:image" itemProp="image" content="/splash.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="CovenScryer" />
+        <meta property="twitter:url" content="https://covenscryer.xyz" />
+        <meta property="twitter:description" content="Search for Witches using advanced filtering and search tools" />
+        <meta property="twitter:image" content="/splash.png" />
+
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"/>
       </Head>
