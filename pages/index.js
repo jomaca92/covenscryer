@@ -275,7 +275,7 @@ const TokenDetail = ({isOpen, setIsOpen, initialData}) => {
               <div className="md:w-5/6 p-3 font-goth flex flex-col items-center justify-between" style={{color: colorMap[background.replace(' ', '').toLowerCase()][1]}}>
 
                 <Dialog.Title className="py-3">[{token.tokenID}]</Dialog.Title>
-                <a className="focus:outline-0 absolute right-3 top-3" target="_blank" href={OPENSEA_BASE_URL + token.tokenID}>
+                <a className="focus:outline-0 absolute right-3 top-3" target="_blank" rel="noreferrer" href={OPENSEA_BASE_URL + token.tokenID}>
                     <OpenseaLogo fillColor={colorMap[background.replace(' ', '').toLowerCase()][1]} />
                 </a>
                 <Dialog.Description className="font-goth text-3xl pb-5">
