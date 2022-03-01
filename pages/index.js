@@ -423,8 +423,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-champagne font-goth text-black">
       <Head>
-        <title>WitchScry</title>
-        <meta name="description" content="Find a Witch using advanced filtering and search tools" />
+        <title>CovenScryer</title>
+        <meta name="description" content="Search for Witches using advanced filtering and search tools" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"/>
       </Head>
@@ -432,7 +432,7 @@ export default function Home() {
       <main className="flex flex-col">
         <TokenDetail isOpen={toggleTokenDetail} setIsOpen={setToggleTokenDetail} initialData={initialModalData} />
         <div className="fixed w-full z-10 bg-champagne border-b border-brass/50 lg:border-none lg:bg-transparent">
-          <h1 className="text-3xl font-bold pt-2 ml-2 lg:m-4 lg:pt-0">WitchScry</h1>
+          <h1 className="text-3xl font-bold pt-2 ml-2 lg:m-4 lg:pt-0">CovenScryer</h1>
         </div>
         <div className="flex px-4 lg:px-8 justify-center lg:content-between">
 
