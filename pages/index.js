@@ -434,8 +434,8 @@ export default function Home() {
         <meta property="og:image" itemProp="image" content="https://covenscryer.netlify.app/splash.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="CovenScryer" />
         <meta property="twitter:url" content="https://covenscryer.xyz" />
+        <meta property="twitter:title" content="CovenScryer" />
         <meta property="twitter:description" content="Search for Witches using advanced filtering and search tools" />
         <meta property="twitter:image" content="https://covenscryer.netlify.app/splash.png" />
 
