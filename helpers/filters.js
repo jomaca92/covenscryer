@@ -1,7 +1,13 @@
 const FilterData = [
+    {
+        field: "attributeCount",
+        label: "Attribute Count",
+        suffixes: ["_gte","_lte"],
+        options: [19, 28], // min and max values
+    },
     { 
         field: "archetypePower",
-        label: "Archetype of Power",
+        label: "Archetype",
         suffixes: ["_in"],
         options: {
             "enchantress": 1394,
@@ -760,12 +766,6 @@ const FilterData = [
         label: "Wonder",
         suffixes: ["_gte","_lte"],
         options: [0, 10], // min and max values
-    },
-    {
-        field: "attributeCount",
-        label: "Attribute Count",
-        suffixes: ["_gte","_lte"],
-        options: [19, 28], // min and max values
     },
 ]
 
